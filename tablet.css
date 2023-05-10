@@ -1,0 +1,47 @@
+@media (max-width: 992px) {
+  .avatar {
+    display: none;
+  }
+  /*Navbar*/
+  .ho-ten p {
+    display: none;
+  }
+  .ho-ten {
+    padding: 0;
+    width: 60px;
+  }
+  .nav1 {
+    padding-left: 35px;
+    padding-right: 25px;
+  }
+  /*Mục tiêu và thông tin cá nhân*/
+  #target {
+    padding: 35px;
+    padding-top: 60px;
+    height: 350px;
+  }
+  #personal-info {
+    padding: 35px;
+    padding-top: 60px;
+    height: 350px;
+  }
+  #target .section-title,
+  #personal-info .section-title {
+    padding-bottom: 30px;
+  }
+  .info {
+    padding-bottom: 0;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+  /*Du an*/
+  .project-detail .noi-dung {
+    height: 365px;
+  }
+  .funix,
+  .developer {
+    display: block;
+  }
+}

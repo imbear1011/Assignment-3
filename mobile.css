@@ -1,0 +1,79 @@
+@media (max-width: 767px) {
+  /*Navbar*/
+  #nav-bar .container1 {
+    display: block;
+    padding: 20px 50px;
+  }
+  .nav1 {
+    display: block;
+    border: none;
+    height: 30px;
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .ho-ten {
+    display: none;
+  }
+  /*------------*/
+  /*Mục tiêu nghề nghiệp và thông tin cá nhân*/
+  #about .container1 {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+  #target {
+    padding: 35px;
+    padding-top: 60px;
+    height: auto;
+  }
+  #personal-info {
+    padding: 35px;
+    padding-top: 60px;
+    height: auto;
+  }
+  #target .section-title,
+  #personal-info .section-title {
+    padding-bottom: 30px;
+  }
+  .info {
+    padding-bottom: 0;
+  }
+  /*Thông tin nghề nghiệp*/
+  .kinh-nghiem-content,
+  .hoc-van-content,
+  .hoat-dong-content,
+  .content-4,
+  .ngon-ngu-content,
+  .ky-nang-content {
+    height: auto;
+  }
+  /*Chung chi*/
+  .chungchi {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+  .flex {
+    border-left: none;
+    border-top: none;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d6c08d;
+  }
+  /*Du an*/
+  .project-detail .noi-dung {
+    height: auto;
+  }
+  .ylabel {
+    margin-bottom: 10px;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  /*footer*/
+  .flex-footer {
+    flex-direction: column;
+  }
+}
